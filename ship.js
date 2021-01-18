@@ -17,12 +17,12 @@ function Ship() {
       this.boost();
     }
     this.pos.add(this.vel);
-    this.vel.mult(0.2);
+    this.vel.mult(0.3);
   }
 
   this.boost = function () {
     var force = p5.Vector.fromAngle(this.heading);
-    force.mult(0.4);
+    force.mult(0.6);
     this.vel.add(force);
   }
 
