@@ -51,10 +51,10 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(40);
     fill("yellow");
-    text("Press enter to start the game!!", width / 2, height - 50);
+    text("Press enter to start the game!!", width / 2, height - 150);
     fill("lime");
     textSize(50);
-    text("Now you're in the Asteroid's belt!", width / 2, height / 4 - 50);
+    text("Now you're in the Asteroid's !", width / 2, height / 4 - 50);
     textSize(30);
     fill("orange");
     text("-- Press space to hit the asteroids!", width / 2 - 50, height / 4 + 20);
@@ -65,7 +65,7 @@ function draw() {
     textFont("Algerian");
     textSize(50);
     fill("red");
-    text("--Beware of the asteroids coming!!", width / 2, height - 140);
+    text("--Beware of the asteroids coming!!", width / 2, height - 230);
   }
 
   if (gameStarted) {
